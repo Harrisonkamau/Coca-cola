@@ -20,6 +20,12 @@ $(document).ready(function(){
 		  	$(this).removeClass('animated shake');
 		  });
 
+		  $( "#clickme" ).click(function() {
+  $( "#book" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+});
+
 		  //some people represent the event parameter as 'e'
 		  //This is a naming shortcut
 
